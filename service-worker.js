@@ -1,8 +1,8 @@
 const CACHE_NAME = 'alkhaled-v1';
 // This list should be updated if new static assets are added.
 const URLS_TO_CACHE = [
-  '/',
-  '/index.html',
+  './',
+  './index.html',
   'https://cdn.tailwindcss.com',
   'https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css',

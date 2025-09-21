@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Customer } from '../types';
+import { Customer } from '../types.ts';
 
 interface AddEditCustomerPageProps {
     onSave: (customerData: Omit<Customer, 'id'>, id?: number) => void;

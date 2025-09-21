@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Product, CustomFieldDef } from '../types';
+import { Product, CustomFieldDef } from '../types.ts';
 
 interface AddEditProductPageProps {
   onSave: (product: Omit<Product, 'id'>) => void;
@@ -172,7 +172,7 @@ const AddEditProductPage: React.FC<AddEditProductPageProps> = ({ onSave, onCance
         {/* Actions */}
         <div className="flex gap-2 justify-end pt-2">
           <button type="button" onClick={onCancel} className="bg-slate-200 text-slate-700 px-6 py-2.5 rounded-md text-sm font-semibold">إلغاء</button>
-          <button type="submit" className="bg-sky-600 text-white px-6 py-2.5 rounded-md text-sm font-semibold">حفظ المنتج</button>
+          <button type="submit" className="bg-sky-600 text-white px-4 py-2.5 rounded-md text-sm font-semibold">حفظ المنتج</button>
         </div>
       </form>
     </>

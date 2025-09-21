@@ -1,6 +1,6 @@
 
 import React, { useMemo, useState } from 'react';
-import { Supplier, PurchaseInvoice, SupplierPayment } from '../types';
+import { Supplier, PurchaseInvoice, SupplierPayment } from '../types.ts';
 
 interface SupplierDetailPageProps {
   supplier: Supplier;

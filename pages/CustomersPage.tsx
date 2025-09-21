@@ -1,6 +1,6 @@
 
 import React, { useMemo, useState } from 'react';
-import { Customer, Invoice, Page, Payment } from '../types';
+import { Customer, Invoice, Page, Payment } from '../types.ts';
 
 interface CustomersPageProps {
   customers: Customer[];

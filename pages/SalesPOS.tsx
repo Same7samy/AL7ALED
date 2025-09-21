@@ -1,6 +1,6 @@
 
 import React, { useState, useCallback, useMemo } from 'react';
-import { Product, CartItem, Offer, Coupon } from '../types';
+import { Product, CartItem, Offer, Coupon } from '../types.ts';
 
 type SearchResult = 
     | { type: 'product'; data: Product }

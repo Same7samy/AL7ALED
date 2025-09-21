@@ -1,8 +1,8 @@
 
 
 import React, { useState, useMemo } from 'react';
-import { Invoice, Customer, CartItem } from '../types';
-import ConfirmDialog from '../components/ConfirmDialog';
+import { Invoice, Customer, CartItem } from '../types.ts';
+import ConfirmDialog from '../components/ConfirmDialog.tsx';
 
 interface InvoiceDetailPageProps {
   invoice: Invoice;

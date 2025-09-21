@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import { PurchaseInvoice, Supplier, Product } from '../types';
+import { PurchaseInvoice, Supplier, Product } from '../types.ts';
 
 interface PurchaseInvoiceDetailPageProps {
   invoice: PurchaseInvoice;

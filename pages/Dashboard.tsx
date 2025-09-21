@@ -1,8 +1,8 @@
 
 import React, { useMemo } from 'react';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
-import DashboardCard from '../components/DashboardCard';
-import { SalesData, Product, Invoice, Page } from '../types';
+import DashboardCard from '../components/DashboardCard.tsx';
+import { SalesData, Product, Invoice, Page } from '../types.ts';
 
 interface DashboardPageProps {
   products: Product[];

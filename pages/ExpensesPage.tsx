@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { Expense } from '../types';
-import DateRangePicker, { DateRange } from '../components/DateRangePicker';
+import { Expense } from '../types.ts';
+import DateRangePicker, { DateRange } from '../components/DateRangePicker.tsx';
 
 interface ExpensesPageProps {
   expenses: Expense[];

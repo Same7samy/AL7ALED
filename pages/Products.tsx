@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Product, Page } from '../types';
+import { Product, Page } from '../types.ts';
 
 interface ProductsPageProps {
   products: Product[];

@@ -1,9 +1,9 @@
 
 import React, { useState, useMemo } from 'react';
-import { Invoice, Product, Expense, Customer } from '../types';
-import DateRangePicker, { DateRange } from '../components/DateRangePicker';
+import { Invoice, Product, Expense, Customer } from '../types.ts';
+import DateRangePicker, { DateRange } from '../components/DateRangePicker.tsx';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
-import DashboardCard from '../components/DashboardCard';
+import DashboardCard from '../components/DashboardCard.tsx';
 
 interface ReportsPageProps {
   invoices: Invoice[];

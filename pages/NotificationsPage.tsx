@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Notification, Page } from '../types';
+import { Notification, Page } from '../types.ts';
 
 interface NotificationsPageProps {
     notifications: Notification[];

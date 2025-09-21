@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CustomFieldDef, FieldType } from '../types';
+import { CustomFieldDef, FieldType } from '../types.ts';
 
 interface AppSettings {
   productCustomFields: CustomFieldDef[];

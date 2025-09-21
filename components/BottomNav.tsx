@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Page } from '../types';
+import { Page } from '../types.ts';
 
 interface NavItemProps {
   label: string;

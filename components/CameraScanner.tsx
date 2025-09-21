@@ -1,6 +1,6 @@
 
 import React, { useRef, useEffect, useState } from 'react';
-import AlertDialog from './AlertDialog';
+import AlertDialog from './AlertDialog.tsx';
 
 declare const ZXing: any;
 

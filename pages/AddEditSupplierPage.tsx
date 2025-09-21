@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Supplier } from '../types';
+import { Supplier } from '../types.ts';
 
 interface AddEditSupplierPageProps {
     onSave: (supplierData: Omit<Supplier, 'id'>, id?: number) => void;

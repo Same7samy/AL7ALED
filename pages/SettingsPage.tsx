@@ -1,6 +1,6 @@
 
 import React, { useRef } from 'react';
-import { Page } from '../types';
+import { Page } from '../types.ts';
 
 interface SettingsPageProps {
   setActivePage: (page: Page) => void;

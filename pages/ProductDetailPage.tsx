@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Product, Page, CustomFieldDef } from '../types';
+import { Product, Page, CustomFieldDef } from '../types.ts';
 
 interface ProductDetailPageProps {
     product: Product;

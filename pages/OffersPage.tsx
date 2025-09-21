@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { Offer, Product, Coupon } from '../types';
+import { Offer, Product, Coupon } from '../types.ts';
 
 interface OffersPageProps {
   offers: Offer[];
